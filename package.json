@@ -4,7 +4,8 @@
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "nodemon src/index.ts"
+    "start": "nodemon src/index.ts",
+    "build": "swc src -d dist --source-maps --copy-files"
   },
   "keywords": [],
   "author": "",
